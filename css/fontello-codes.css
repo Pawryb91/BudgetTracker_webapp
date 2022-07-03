@@ -1,0 +1,4 @@
+
+.icon-money:before { content: '\e800'; } /* '' */
+.icon-euro:before { content: '\f153'; } /* '' */
+.icon-bitcoin:before { content: '\f15a'; } /* '' */
