@@ -7,10 +7,81 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	
 	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
 	
 </head>
 
 <body>
+
+<div class="conteiner">
+	
+		<header>
+				<div class="logo">
+					<h1>
+						<i class="icon-bitcoin"></i>udget Tracker - <i>every coin under control</i><i class="icon-money"></i>
+					</h1>
+				</div>
+		</header>
+		
+		
+		<main>
+			<article>
+			
+						<h2>Add new income</h2>
+						<hr>
+						<p>Enter amount, choose category and date. <br>
+						You can also add comment if you want:</p>
+						<hr>
+							<form id="income">
+											
+											<div id="datediv" >
+												<label for="amount">Enter amount:</label><br>
+												<input type="number" id="amount"  placeholder="Amount"><br>
+											</div>
+											
+											<div id="amountdiv" >
+												<label for="Date">Enter date:</label><br>
+												<input type="date" id="Date" ><br>
+											</div>
+											
+											<div style="clear:both"></div>
+											
+											<div id="fieldsetdiv" >
+											<fieldset>
+											
+													<legend> Income category </legend>
+													
+													
+													<div><label><input type="radio" name="income_category" checked > Salary </label>
+												<label><input type="radio" name="income_category"  > Bank interest </label></div><br>
+													<div><label><input type="radio" name="income_category"  > Sale on Allegro</label>
+													<label><input type="radio" name="income_category"  > Other </label></div><br>
+											
+											</fieldset>
+											
+											</div>
+										
+											
+											<div id="comment_section">
+													<textarea id="comment" placeholder="Comment" rows="4" cols="35"></textarea><br>
+													</div>
+													<div style="clear:both"></div>
+											<div id="button">
+											<input type="submit" value="Add"><a href="mainMenu.html">Cancel</a>
+											</div>
+							</form>
+			</article>
+		
+
+			
+			
+		</main>
+		
+		<footer id="footerlogin">
+			BudgetTrucker - made by Paweł Rybowicz. All rights reserved &copy; Thanks for visit
+		</footer>
+		
+	</div>
 
 
 </body>
