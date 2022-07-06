@@ -411,3 +411,87 @@ label
 {
 	margin:15px;
 }
+
+#datechoose > label
+{
+	font-size:16px;
+	margin:5px;
+	
+}
+
+#yourbalance
+{
+	text-align:center;
+	width:75%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:24px;
+}	
+	
+
+#incomeset
+{
+	float:left;
+	width:50%;
+	background-color:lightgray;
+	color: green;
+	border-radius: 8px;
+	margin-top:10px;
+	margin-bottom:10px
+	
+}	
+
+#expenseset
+{
+	float:left;
+	width:50%;
+	background-color:lightgray;
+	color: red;
+	border-radius: 8px;
+	margin-top:10px;
+	margin-bottom:10px
+}	
+
+#visualization
+{
+	clear:both;
+	width:100%;
+}
+
+#incomevisualization
+{
+	float:left;
+	width:50%;
+	
+}
+
+#expensevisualization
+{
+	float:left;
+	width:50%;
+}
+	
+#balance
+{
+	
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:700;
+	background-color:white;
+	color: black;
+	border-radius:8px;
+}	
+table
+{
+	width:100%;
+}
+td,th
+{
+	border:1px solid black;
+}
+
+	
+	
