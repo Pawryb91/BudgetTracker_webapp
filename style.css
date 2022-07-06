@@ -433,24 +433,43 @@ label
 {
 	float:left;
 	width:50%;
-	background-color:lightgray;
 	color: green;
 	border-radius: 8px;
 	margin-top:10px;
-	margin-bottom:10px
-	
+	margin-bottom:10px;
 }	
+
+#incomeset > table
+{
+	transition: transform 1s ease;
+	background-color:lightgray;
+}
+
+#incomeset table:hover
+{
+	transform: scale(1.5) rotate(360deg);
+}
 
 #expenseset
 {
 	float:left;
 	width:50%;
-	background-color:lightgray;
 	color: red;
 	border-radius: 8px;
 	margin-top:10px;
 	margin-bottom:10px
 }	
+
+#expenseset > table
+{
+	transition: transform 1s ease;
+	background-color:lightgray;
+}
+
+#expenseset table:hover
+{
+	transform: scale(1.5) rotate(360deg);
+}
 
 #visualization
 {
