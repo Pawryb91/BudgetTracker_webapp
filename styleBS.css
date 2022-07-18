@@ -1,0 +1,37 @@
+
+
+.container-fluid{
+
+    margin:0px;
+    padding:0px;
+}
+
+.home-image-login{
+    background-image: url(../BudgetTracker_webapp/img/logo-registration.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-image-registration{
+    background-image: url(../BudgetTracker_webapp/img/logo-registration.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home-image-main-menu{
+    background-image: url(../BudgetTracker_webapp/img/background-main-menu.jpg);
+    
+    background-position: center;
+}
+
+.change-form:hover{
+    color: grey!important;
+}
+
+.change-form-button:hover{
+    background-color: rgb(194, 196, 192);
+    color:black;
+}
+
+textarea { resize: none }
